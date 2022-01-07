@@ -30,6 +30,10 @@
         </tr>
 
         <tr>
+            <td colspan="2"><center><?php echo $_event['description']; ?></center></td>
+        </tr>
+
+        <tr>
             <td><a href="index.php?p=accueil">Modifier l'évènement</a></td>
             <td><a class="text-danger" href="index.php?p=event&del=<?php echo $_idd; ?>">Supprimer l'évènement</a></td>
         </tr>
